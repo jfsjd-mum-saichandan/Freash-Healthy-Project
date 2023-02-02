@@ -1,0 +1,103 @@
+.flexbox{
+    display: flex;
+    background-color: #C0C0C0;
+}
+.logo{
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.title{
+    padding-left: 80px;
+    text-shadow: 5px 5px 10px rgb(9, 255, 0);
+}
+.settings{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.bar{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.cart{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.search{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.aboutus{
+    padding-left: 130px;
+    padding-top: 30px;
+    color: black;
+}
+.groceries{
+    padding-left: 70px;
+    padding-top: 30px;
+    text-decoration: none;
+}
+.vegitables{
+    padding-left: 30px;
+    padding-top: 30px;
+    text-decoration: none;
+}
+.fruits{
+    padding-left: 30px;
+    padding-top: 30px;
+    text-decoration: none;
+}
+.farm{
+    height: 500px;
+    width: 1450px;
+   padding-left: 5px;
+}
+.subscribe{
+    padding-left: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form{
+    display:flex;
+    background-color:#91e0c8;
+    border-radius: 20px;
+}
+.phno{
+    padding-left: 250px;
+    height:10px;
+    width: 50px;
+    display: inline;
+}
+.submit{
+ padding-top: 25px;
+}
+.groceries a{
+    text-decoration: none;
+    color: black;
+}
+.vegitables a {
+    text-decoration: none;
+    color: black;
+}
+.fruits a{
+    text-decoration: none;
+    color: black;
+}
+.sendmessage{
+	background-color: #fff;
+	color: #32cd32;
+	font-size: 22px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+	margin-right: 15px;
+	transition: all .45s ease;
+}
+.sendmessage:hover{
+   background-color:  #2a2a2a;
+   color:#32cd32 ;
+}
+.Upload2{
+    padding-top: 30px;
+    padding-left: 40px;
+}

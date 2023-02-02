@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    border: solid 5px black;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    border-radius: 20px;
+    background-color: grey;
+    margin: 60px;
+    text-align: center;
+    box-shadow: inset;
+  
+ 
+ }
+ 
+ .container img {
+   width: 100%;
+   border-radius: 20px;
+ }
+ 
+ .container:hover {
+ transition: black 1.5s linear 0.5s ;
+ }

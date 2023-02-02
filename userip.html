@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="buy.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+</head>
+<body>
+    <body class="regis">
+      <div class="body">
+        <div class="flexbox">
+            <img class="logo" src="images/logo1.jpg" alt="logo2">
+            <div class="title">
+                <h1>FRESH & HEALTHY</h1>
+            </div>
+                <div class="groceries">
+                    <a href="groceries.html" target="_blank"><strong>GROCERIES</strong></a>
+                </div>
+                <div class="vegitables">
+                    <a href="vegitables.html" target="_blank"><strong>VEGITABLES</strong></a>
+                </div>
+                <div class="fruits">
+                    <a href="fruits.html" target="_blank"><strong>FRUITS</strong></a>
+                </div>
+                <div class="aboutus">
+                    <a href="aboutus.html" target="_blank"><strong>ABOUT US</strong></a>
+                </div>
+                <div class="cart">
+                    <a href="./buy.html"><b>SIGNIN</b></a>
+                </div>
+                <div class="bar">
+                    <a href="userip.html" target="_blank"><i class="fa-solid fa-upload"></i></a>
+               </div>
+                    <div class="search">
+                        <a href="card.html" target="_blank"><i class="fa-solid fa-truck"></i></a>
+                   </div>
+                    <div class="settings">
+                         <a href="./cart/index.html" target="_blank"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    <div class="Upload2">
+                        <a href="./uoploaditems/form.html" target="_blank"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                   </div>
+                    
+            </div>
+        </div>
+        <img class="logo" src="" alt="">
+            <h1 class="head">UPLOAD YOUR PRODUCTS</h1>
+            <h5><em>SELL YOUR PRODUCTS!</em></h5>
+                <input class="ss" type="text" id="text" placeholder="Name" id="fname" required>
+                <br>
+                <br>
+                <input class="ss1" type="text" id="number" placeholder="Phone Number" required>
+                <br>
+                <br>
+                <input class="ss2" type="text" id="email" placeholder="E-mail" required>
+                <br>
+                <br>
+                <label for="myfile">Select a file:</label>
+                <input type="file" id="myfile" name="myfile">
+                <br>
+                <br>
+                <span id="result">Name:</span>
+                <br>
+                <br>
+                <button class="ss4" id="click" onclick="sai()">Send Details</button>
+                <br>
+                <br>
+                <input 
+                type="button" value="Submit" onClick="pr()">
+                <br>
+                <br>
+                <button type="submit" onClick="refreshPage()">Refresh</button>
+                <a href="success.html">
+                <input type="button" value=" Check Status">
+                </a>
+                </div>
+                <script src="/js/buy1.js"></script>
+                <script src="./js/refresh.js"></script>
+                        <br>
+                        <br>
+                    </div>
+                    <script>
+                        function pr() {
+                          document.getElementById("result").innerHTML = document.getElementById("fname").value ;
+                        }
+                      </script>
+</body>
+</html>

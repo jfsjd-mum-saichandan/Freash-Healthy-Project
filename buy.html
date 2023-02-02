@@ -1,0 +1,107 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="buy.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="icon" href="./images/logo1.jpg" type="image/icon type">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+</head>     
+<body class="regis">
+  <div class="body">
+    <div class="flexbox">
+        <img class="logo" src="images/logo1.jpg" alt="logo2">
+        <div class="title">
+            <h1>FRESH & HEALTHY</h1>
+        </div>
+            <div class="groceries">
+                <a href="groceries.html" target="_blank"><strong>GROCERIES</strong></a>
+            </div>
+            <div class="vegitables">
+                <a href="vegitables.html" target="_blank"><strong>VEGITABLES</strong></a>
+            </div>
+            <div class="fruits">
+                <a href="fruits.html" target="_blank"><strong>FRUITS</strong></a>
+            </div>
+            <div class="aboutus">
+                <a href="aboutus.html" target="_blank"><strong>ABOUT US</strong></a>
+            </div>
+            <div class="cart">
+                <a href="./buy.html"><b>SIGNIN</b></a>
+            </div>
+            <div class="bar">
+                <a href="userip.html" target="_blank"><i class="fa-solid fa-upload"></i></a>
+           </div>
+                <div class="search">
+                    <a href="card.html" target="_blank"><i class="fa-solid fa-truck"></i></a>
+               </div>
+                <div class="settings">
+                     <a href="./cart/index.html" target="_blank"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+                <div class="Upload2">
+                    <a href="./uoploaditems/form.html" target="_blank"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+               </div>
+                
+        </div>
+    </div>
+    <img class="logo" src="images/logo1.jpg" alt="logo2">
+        <h1 class="head">REGISTRATION FORM</h1>
+        <h5><em>Register Here To Buy & Sell Products..!</em></h5>
+            <input class="ss" type="text" id="text" placeholder="Name" required>
+            <br>
+            <br>
+            <input class="ss1" type="text" id="number" placeholder="PhoneNumber" required>
+            <br>
+            <br>
+            <input class="ss2" type="text" id="email" placeholder="E-mail" required>
+            <br>
+            <br>
+            <input class="ss2" type="password" id="password" placeholder="Password" required>
+            <br>
+            <br>
+            <textarea class="ss3" name="area" id="area" cols="21" rows="7"></textarea>
+            <br>
+            <br>
+            <button class="ss4" id="button">submit</button>
+            <br>
+            <br>
+            <button class="ss4" id="get">get</button>
+            <br>
+            <br>
+            <button type="submit" onClick="refreshPage()">Refresh</button>
+            <h5>Already Have An Account <a href="./login.html">Clickhere</a></h5>
+            <br>
+            <div class="d-flex justify-content-center">
+                <div class="spinner-border" 
+                     role="status" id="loading">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+    
+            <h1>Registered names</h1>
+            <!-- table for showing data -->
+            <table id="names"></table>
+    </div>
+    <section class="end">
+		<div class="last-text">
+			<p>Copyright © 2022 by Chandan Sai All Rights Reserved.</p>
+		</div>
+
+		<div class="top">
+			<a href="index.html"><i class='bx bx-up-arrow-alt' ></i></a>
+		</div>
+	</section>
+    <script src="/js/buy.js"></script>
+    <script src="./js/refresh.js"></script>
+</body>
+</html>    

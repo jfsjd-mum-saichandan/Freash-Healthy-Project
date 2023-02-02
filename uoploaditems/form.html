@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="newstyle.css">
+    <title>upload Products</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
+    <script id="greet" type="text/x-handlebars-template">
+      <p style="text-align:center; background-color: black; border:20px solid white; padding:80px; color:white;">Hii, {{namefull}} .Welcome to our Fresh and Healthy .<br>We are happy to see you as member of our Team.<br>We will contact you on {{mobile}},If order placed.Thank you!!<br></p>
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+  </head>
+  
+  
+  <body>
+    <!--Title section-->
+    <div class="body">
+      <div class="flexbox">
+          <img class="logo" src="./img/logo1.jpg" alt="logo2">
+          <div class="title">
+              <h1>FRESH & HEALTHY</h1>
+          </div>
+              <div class="groceries">
+                  <a href="groceries.html" target="_blank"><strong>GROCERIES</strong></a>
+              </div>
+              <div class="vegitables">
+                  <a href="vegitables.html" target="_blank"><strong>VEGITABLES</strong></a>
+              </div>
+              <div class="fruits">
+                  <a href="fruits.html" target="_blank"><strong>FRUITS</strong></a>
+              </div>
+              <div class="aboutus">
+                  <a href="aboutus.html" target="_blank"><strong>ABOUT US</strong></a>
+              </div>
+              <div class="cart">
+                  <a href="./buy.html"><b>SIGNIN</b></a>
+              </div>
+              <div class="bar">
+                  <a href="userip.html" target="_blank"><i class="fa-solid fa-upload"></i></a>
+             </div>
+                  <div class="search">
+                      <a href="card.html" target="_blank"><i class="fa-solid fa-truck"></i></a>
+                 </div>
+                  <div class="settings">
+                       <a href="./cart/index.html" target="_blank"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </div>
+                  <div class="Upload2">
+                      <a href="./uoploaditems/form.html" target="_blank"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                 </div>
+                  
+          </div>
+      </div>
+
+   
+    <!--navbar-->
+
+
+
+
+<!--Form for adding new item-->
+<div class="nform">
+    <h1 style="text-align:center;">ADD YOUR ITEM</h1><br><br>
+      <div id="form"  style="text-align:center;">
+       
+          <label for="name">Name:</label><br>
+          <input id="name" type="text" name="name">
+          <br><br>
+          <label for="mobile">Mobile No:</label><br>
+          <input id="mobile" type="text" name="mobile">
+          <br><br>
+          <label for="detail">Quantity:</label><br>
+          <input id="detail" type="text" name="detail">
+          <br><br>
+          <label for="img1">Product Image:</label><br>
+          <input id="img1" type="text" name="img1">
+          <br><br>
+          <label for="pname">Product Name:</label><br>
+          <input id="pname" type="text" name="pname">
+          <br><br>
+          <label for="price">Price:</label><br>
+          <input id="price" type="text" name="price">
+          <br><br>
+          <label for="size">Email:</label><br>
+          <input id="size" type="text" name="size">
+          <br><br>
+          <button id="bt1" style="padding:10px 40px;">UPLOAD</button>
+      
+      </div><br><br><br>
+      <div id="finalmessage"></div> 
+</div> 
+
+
+<div class="newadd">Items Added</div>
+<div id="list-items"></div>
+
+
+
+<script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+        </script>
+        <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+        </script>
+        <script src=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+        </script>
+    
+    <script src="itemcontroller.js"></script> 
+       
+    <script src="main.js" ></script>   
+</body>   
+</html>
